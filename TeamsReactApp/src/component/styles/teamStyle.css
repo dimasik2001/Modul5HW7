@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    align-items: center;
+    height: 100%;
+    border: black 1px solid;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+input[type = "submit"], button{
+    width: 100%;
+}
+.info{
+    margin-left: 20px;
+}
+td{
+    padding: 10px;
+    border: 1px solid black;
+}
+.players-list{
+    margin-left: 50px;
+}
+.player-in-list{
+display: flex;
+justify-content:space-between;
+}
+.controls{
+    display: flex;
+    height: 50%;
+    align-self: end;
+    margin-left: 10px;
+}
